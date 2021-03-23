@@ -6,7 +6,8 @@ PS2:请使用Ubuntu18.04及以下系统编译，Ubuntu20.04实测gcc会报错，
 
 ## 操作步骤： 
 
-mkdir twrp  
+```
+mkdir twrp
 cd twrp  
 repo init -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-5.1 
 repo sync 
@@ -15,3 +16,4 @@ git clone https://github.com/lpxx50117/android_device_Coolpad_Coolpad5270.git de
 lunch omni_Coolpad5270-userdebug 
 export LC_ALL=C 
 mka recoveryimage
+```
